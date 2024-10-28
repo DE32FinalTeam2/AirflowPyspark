@@ -23,7 +23,7 @@ with DAG(
     max_active_runs=1,
     max_active_tasks=3,
     description='Sparkdb',
-    schedule='*/10 * * * *',
+    schedule='1 * * * *',
     start_date=datetime(2024, 10, 27),
     catchup=True,
     tags=['java', 'chat', 'log'],
